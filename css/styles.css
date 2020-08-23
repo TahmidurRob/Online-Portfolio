@@ -1,0 +1,158 @@
+body {
+    text-align: center;
+    line-height: 1.5;
+    background-color: #dbe2ef;
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+}
+
+#title p, #achivements p, #about p, #contact p {
+    font-size: 1.25rem;
+}
+
+#title .btn {
+    margin: 2rem;
+    background-color: #dbe2ef;
+    font-family: 'Roboto', sans-serif;
+}
+
+#title .btn:hover {
+    background-color: #112d4e;
+    color: #dbe2ef;
+}
+
+a img {
+    width: 2rem;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+h5 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.navbar {
+    background: #112d4e;
+}
+
+.profile-pic {
+    border-radius: 100%;
+    width: 15rem;
+}
+
+ul {
+    margin: 0;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+hr {
+    background-color: white;
+    width: 75%;
+}
+
+.row img {
+    border-radius: 100%;
+    width: 4rem;
+}
+
+.card {
+    margin: 1rem auto;
+}
+
+#title {
+    background: #3f72af;
+    color: #dbe2ef;
+    padding: 8rem 5rem 3rem;
+}
+
+#skills {
+    background: #dbe2ef;
+}
+
+#skills, #achivements, #about, #contact {
+    padding: 2rem;
+}
+
+#skills h3 {
+    margin: 2rem;
+}
+
+#skills p {
+    margin: 1rem;
+}
+
+#achivements {
+    background: #3f72af;
+    color: #dbe2ef;
+}
+
+#achivements p {
+    text-align: left;
+    margin: 0rem 12rem;
+}
+
+#about {
+    background: #dbe2ef;
+    padding: 4rem 12rem;
+}
+
+#contact {
+    background: #3f72af;
+    color: #dbe2ef;
+    padding: 4rem 0;
+}
+
+#footer {
+    background: #112d4e;
+    color: grey;
+    padding: 1rem;
+}
+
+@media (max-width: 1028px) {
+    #achivements {
+        text-align: center;;
+    }
+
+    #achivements p {
+        margin: 0;
+    }
+
+    #about {
+        background: #dbe2ef;
+        padding: 4rem 1.5rem;
+    }
+
+    #contact {
+        padding: 4rem 1.5rem;
+    }
+
+    #title {
+        padding: 12rem 5rem 3rem;
+    }
+}
