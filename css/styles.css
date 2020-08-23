@@ -130,6 +130,9 @@ hr {
 
 #footer {
     background: #112d4e;
+}
+
+footer {
     color: grey;
     padding: 1rem;
 }
