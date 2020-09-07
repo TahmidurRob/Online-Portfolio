@@ -137,9 +137,52 @@ footer {
     padding: 1rem;
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 1023px) {
+
+    .navbar-brand {
+        font-size: 4rem;
+    }
+
+    .nav-link {
+        font-size: 2rem;
+    }
+
+    .profile-pic {
+        width: 20rem;
+    }
+
+    #title .btn {
+        font-size: 2rem;
+    }
+
+    #title p, #achivements p, #about p, #contact p, .row p {
+        font-size: 2rem;
+    }
+
+    .row img {
+        border-radius: 100%;
+        width: 8rem;
+    }
+
+    h1 {
+        font-size: 7rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+    
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    h5 {
+        font-size: 2.5rem;
+        padding: 1rem;
+    }
+
     #achivements {
-        text-align: center;;
+        text-align: center;
     }
 
     #achivements p {
